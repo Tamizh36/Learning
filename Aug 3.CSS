@@ -1,0 +1,351 @@
+.create-account{
+    background-color: #1619c4; 
+    border: none;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 6px;
+}
+
+.twitter{
+    border-radius: 36px;
+    border: 1.5px solid #fff;
+    background-color: rgb(36, 131, 208);
+    color: white;
+    font-weight: 300;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+}
+
+.Join{
+    background-color: #fff;
+    border: 1.5px solid rgb(36, 131, 208);
+    color: rgb(36, 131, 208);
+    border-radius: 36px;
+    padding: 8px 20px;
+    display: flex;
+    margin-top: 10px;
+}
+.Hi{
+    background-color:#5809d0;
+    color: white;
+    border: none;
+    font-size: 14px;
+    padding: 8px 20px 8px 20px;
+    margin-top: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    
+
+}
+
+.Sign-In{
+    background-color: #fff;
+    border: 1.5px solid rgb(36, 131, 208);
+    color: rgb(36, 131, 208);
+    border-radius: 36px;
+    padding: 8px 20px;
+    display: flex;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.sign-up{
+    background-color: #fff;
+    border: 1.5px solid rgb(36, 131, 208);
+    color: rgb(36, 131, 208);
+    border-radius: 36px;
+    padding: 8px 20px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.new-wave{
+    background-color: #1619c4;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 4px 4px 10px 0 #000001 rgba(0, 0, 0, 10.5);
+}
+
+.new-wave:hover{
+    background-color: #0d0f9c;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+.new-wave:active{
+    background-color: #050512;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+.talking-tech{
+    font-size: 20px;
+    color: #1619c4;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #1619c4;
+}
+
+.h1{
+    color: #0d0f9c;
+}
+
+.h1:hover{
+    color: #9d0f48;
+    transition: 0.3s;
+}
+
+
+/* Leena profile card styles */
+.profile{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background: #f7f8fb;
+    border: 1px solid #e3e6ee;
+    padding: 16px;
+    border-radius: 10px;
+    max-width: 900px;
+    margin-top: 20px;
+    transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s;
+}
+
+.profile:hover{
+    border: 1px solid #0d0f9c;
+    background-color: #dadaf6;
+    box-shadow: 0 12px 24px rgba(13,15,156,0.15);
+}
+
+.profile-photo{
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(13,15,156,0.08);
+}
+.profile-info h2{
+    margin: 0 0 8px 0;
+    color: #0d0f9c;
+}
+.profile-info p{
+    margin: 4px 4px;
+    color: #333;
+}
+.profile-info .bio{
+    margin-top: 8px;
+    line-height: 1.4;
+    max-width: 620px;
+}
+.contact{
+    display: inline-block;
+    margin-top: 8px;
+    background: #1619c4;
+    color: #fff;
+    padding: 8px 12px;
+    transition: 0.5;
+    
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* wave*/
+
+.waves{
+    margin-top:20px ;
+    display: flex;
+    border: 1px solid  rgb(195, 192, 192);
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #f1f1f3;
+    max-width: 900px;
+}
+
+.waves:hover{
+    background-color: #eaebf7;
+}
+.tamizh-photo{
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.main-name{
+    margin: 4px 4px;
+}
+
+
+.Tamizh-info{
+     margin-left: 20px;
+}
+
+.degree,
+.age,
+.gender,
+.current-life {
+    font-weight: bold;
+    color: #333333;
+}
+
+
+.Tamizh-info p{
+    margin: 4px 4px;
+}
+
+
+
+/* button */
+.button-mode{
+    padding: 8px;
+    margin: 0 0 0 30px;
+}
+
+.save-button{
+    background-color: #9d0f48;
+    color: white;
+    border: 0;
+    border-radius: 6px;
+    padding: 8px 15px 8px 15px;
+}
+.save-button:hover{
+   transition: 0.2s;
+   background-color: #850b3c;
+   cursor: pointer;
+}
+
+
+
+
+/* Hilda Sun */
+.sun{
+    margin-top: 20px;
+    display: flex;
+    padding: 20px;
+    width: 900px;
+    height: 180px;
+    background: #fcf9f9;
+    border: 1px solid  #d7d7f3;
+    border-radius: 6px;
+}
+
+.sun:hover{
+    background-color: #f3f3f9;
+    border-color: #5809d0;
+    transition: 0.5s;
+}
+
+.text-portion{
+    margin: 0px 0px 0px 20px;
+
+}
+
+.primary-name{
+    margin: 0px 0px 4px 0px;
+}
+
+.primary-name,
+.age,
+.dob,
+.city,
+.region{
+    font-weight:bold;
+    
+}
+
+.text-portion p{
+    margin: 6px 0px;
+}
+
+.hilda-image{
+    object-fit: cover;
+    border-radius: 6px;
+}
+.click-here{
+    background-color: #3c18b4;
+    padding: 10px 15px ;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+
+.buttons{
+    margin: 0 0 0 20px;
+}
+.hi{
+    padding: 8px 15px;
+    background-color: #9d0f48;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: white;  
+    border-radius: 6px;
+}
+
+/* rithu Section */
+.rithu-section{
+    padding: 20px;
+    display: flex;
+    background-color: #f2f2f9;
+    max-width: 900px;
+    max-height: 200px;
+    margin-top: 20px;   
+    border: solid 1px #d3d3f6;
+    border-radius: 6px;
+}
+.rithu-section:hover{
+    background-color: #d5d7f4;
+    transition: 0.5s;
+}
+
+.rithu-texty-portion{
+    margin-left: 20px;
+}
+.william-image{
+    object-fit:cover;
+    border-radius: 6px;
+}
+.rithu-texty-portion h2{
+    margin: 2px 0px 2px 0px  ;
+}
+
+.ages,
+.dobs,
+.citys{
+    font-weight: bold;
+}
+
+.rithu-texty-portion p{
+    margin: 4px;
+}
+
+.view{
+    background-color: #3c18b4;
+    padding: 8px 15px;
+    color: white;
+    border-radius: 6px;
+    margin-top: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.sign-in{
+    margin-left: 20px;
+}
+.sign-inn{
+    background-color: rgb(152, 16, 16);
+    color: white;
+    border-radius: 6px;
+    padding: 8px 15px;
+    border: none;
+    outline: none;
+    
+}
+
